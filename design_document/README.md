@@ -19,7 +19,7 @@ Entry Page:
 
 Search Result:
 
-![Search_result](search.jpeg)
+![Search_result](Search.jpeg)
 
 New Page / Edit Page:
 
