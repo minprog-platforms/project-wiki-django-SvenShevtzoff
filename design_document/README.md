@@ -11,26 +11,26 @@ Minor Programming
 
 Index Page:
 
-![index](index.jpeg|width=100)
+![index](index.jpeg)
 
 Entry Page:
 
-![Entry](entry.jpeg | width=100)
+![Entry](entry.jpeg)
 
 Search Result:
 
-![Search_result](search.jpeg | width=100)
+![Search_result](search.jpeg)
 
 New Page / Edit Page:
 
-![New_page](new_page.jpeg | width=100)
-![Edit_page](edit_page.jpeg | width=100)
+![New_page](new_page.jpeg)
+![Edit_page](edit_page.jpeg)
 
 Error Page:
 
-![error_page](error_page.jpeg | width=100)
+![error_page](error_page.jpeg)
 
 Flowchart for getting between pages:
-
-![Flowchart](flowchart_wiki.drawio.png | width=100)
+    
+![Flowchart](flowchart_wiki.drawio.png)
 
