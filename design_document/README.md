@@ -11,7 +11,7 @@ Minor Programming
 
 Index Page:
 
-![index](index.jpeg | width=100)
+![index](index.jpeg|width=100)
 
 Entry Page:
 
