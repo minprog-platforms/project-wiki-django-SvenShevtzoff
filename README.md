@@ -1,8 +1,8 @@
-# Application Name
+# Wiki
 
-TODO: Describe your application here.
+This project is a wiki-website that contains information about programming and is build using Django
 
 
-## Getting Started
-
-TODO: Describe steps to install requirements and get the application running.
+Sven Shevtzoff
+12290513
+Minor Programming
