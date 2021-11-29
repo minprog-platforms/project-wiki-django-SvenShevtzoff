@@ -29,10 +29,25 @@ textarea {
 
 .sidebar {
     background-color: #f0f0f0;
-    height: 100vh;
     padding: 20px;
 }
 
 .sidebar h2 {
     margin-top: 5px;
+}
+
+.result {
+    margin: 25px;
+    padding: 15px;
+    background-color: rgb(146, 146, 146);
+    width: 50%;
+}
+
+.error {
+    color: red;
+}
+
+.distance {
+    margin: 10px;
+    padding: 10px;
 }

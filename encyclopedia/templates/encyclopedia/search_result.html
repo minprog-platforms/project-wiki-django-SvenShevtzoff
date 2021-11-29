@@ -1,0 +1,20 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Search Results
+{% endblock %}
+
+{% block body %}
+       
+    <h1>Search results for: "{{ term }}"</h1>
+
+        {% for title, md in results.items %}
+            <div class="result">
+                <h3>{{ title }}</h3>
+                <hr>
+                <p>{{ md|safe }}</p>
+            </div>
+        {% empty %}
+            <h4>No results matching term</h4>
+        {% endfor %}
+{% endblock %}

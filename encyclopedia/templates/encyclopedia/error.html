@@ -1,0 +1,11 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ error }}
+{% endblock %}
+
+{% block body %}
+    <h1>This entry does not exist</h1>
+    <hr>
+    <p>Use the search engine to find matching entries or make this page yourself by clicking <a href="{% url 'new' %}">here</a>.</p>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block body %}
+    <h1>Make a new page</h1>
+    <hr>
+    <p class="error">This title already exists!</p>
+    <form action="{% url 'index' %}" method="POST">
+        {% csrf_token %}
+        <div class="distance"><button type="submit" name="new_page">Submit new page</button></div>
+        <div class="distance">{{ new_page_form }}</div>
+    </form>
+{% endblock %}
