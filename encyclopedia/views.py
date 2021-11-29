@@ -6,7 +6,7 @@ from random import randint
 from . import util
 
 term = ""
-start_text_new_page = "# Title goes here \n\n Enter text here \n\n link another page like this:\n[HTML](/wiki/HTML)"
+start_text_new_page = "# Title goes here\n\nEnter text here\n\nlink another page like this:\n[HTML](/wiki/HTML)"
 
 class SearchForm(forms.Form):
     term = forms.CharField(label="", widget=forms.TextInput(attrs={'placeholder': 'Search Encyclopedia', 'class': 'distance'}))
