@@ -10,7 +10,7 @@
 
         {% for title, md in results.items %}
             <div class="result">
-                <h3>{{ title }}</h3>
+                <h3><a href="wiki/{{ title }}">{{ title}}</a></h3>
                 <hr>
                 <p>{{ md|safe }}</p>
             </div>
